@@ -38,22 +38,15 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 Frontend
----
 
-##🌐 Frontend (React)
-bash
-Copy
-Edit
+
+###🌐 Frontend 
+
 cd feedback-frontend
 npm install
 npm start
 
-##🐳 Docker (Backend)
-bash
-Copy
-Edit
-docker build -t feedback-backend .
-docker run -p 8000:8000 feedback-backend
+
 
 ## 📐 Design Decisions
 Modular Django App (core): Keeps business logic and views clean and maintainable.
