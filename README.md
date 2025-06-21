@@ -50,37 +50,40 @@ A full-stack feedback management system built with **Django REST Framework** (Ba
 - npm install
 - npm start
 
+###🐳 Docker (Backend Only)
+- bash
+- Copy
+- Edit
+# Build the Docker image
+- docker build -t feedbacktool-backend .
+
+# Run the Docker container
+- docker run -p 8000:8000 feedbacktool-backend
 
 
 ## 📐 Design Decisions
-Modular Django App (core): Keeps business logic and views clean and maintainable.
+- Modular Django App (core): Keeps business logic and views clean and maintainable.
 
-Token-based Authentication: Secure user access for admins and employees.
+- Token-based Authentication: Secure user access for admins and employees.
 
-Role-based UI: Separate dashboard for Admins (acknowledge feedback) and Employees (submit feedback).
+- Role-based UI: Separate dashboard for Admins (acknowledge feedback) and Employees (submit feedback).
 
-RESTful APIs: Built using DRF for scalability and frontend integration.
+- RESTful APIs: Built using DRF for scalability and frontend integration.
 
-Frontend Routing: Built with React Router DOM for SPA feel.
+- Frontend Routing: Built with React Router DOM for SPA feel.
 
 📁 Folder Structure
 
-feedbacktool/
-├── feedbacktool_project/       # Django project
-├── core/                       # Django app
-├── feedback-frontend/          # React app
-├── Dockerfile
-├── manage.py
-└── README.md
+- feedbacktool/
+- ├── feedbacktool_project/       # Django project
+- ├── core/                       # Django app
+- ├── feedback-frontend/          # React app
+- ├── Dockerfile
+- ├── manage.py
+- └── README.md
 🙋‍♂️ Author
 Ranganath B
 GitHub
-
-yaml
-Copy
-Edit
-
-
 
 2. ### **Commit and Push `README.md`**
 
