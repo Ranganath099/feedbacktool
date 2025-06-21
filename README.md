@@ -30,7 +30,7 @@ A full-stack feedback management system built with **Django REST Framework** (Ba
 
 ### ⚙️ Backend
 
-```bash
+
 cd feedbacktool
 python -m venv venv
 venv\Scripts\activate   # For Windows
@@ -41,7 +41,9 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-🌐 Frontend
+---
+
+###🌐 Frontend
 
 cd feedback-frontend
 npm install
