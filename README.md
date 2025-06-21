@@ -81,9 +81,10 @@ A full-stack feedback management system built with **Django REST Framework** (Ba
 - ├── Dockerfile
 - ├── manage.py
 - └── README.md
-🙋‍♂️ Author
-Ranganath B
-GitHub
+  
+### 🙋‍♂️ Author
+- Sri Ranganath B
+- GitHub
 
 2. ### **Commit and Push `README.md`**
 
